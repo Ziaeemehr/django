@@ -46,3 +46,12 @@ t2.save()
 quit()
 ```
 
+Give dashboard access to database.
+
+```sh
+python3 manage.py runserver
+http://127.0.0.1:8000/amdin
+python3 manage.py createsuperuser
+
+```
+
